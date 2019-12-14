@@ -1,0 +1,74 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f7f9fc;
+}
+
+section#box-profile
+{
+    position: relative;
+    width: 80%;
+    min-height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 0px rgba(136, 136, 136, 0.2);
+}
+
+#box-profile .img-profile{
+    position: relative;
+    display: inline-block;
+    float: inline-start;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    top: 25px;
+    margin-left: 41%;
+    margin-bottom: 40px;
+}
+
+.img-profile .photo{
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px - 20px;
+    border-radius: 300px;
+}
+
+.information .profil{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.information .interest{
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+.interest h3{
+    margin-bottom: 10px;
+}
+
+.interest li{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.information .planning{
+    margin-left: 10%;
+    padding-bottom: 20px;
+}
+
+.planning h3{
+    margin-bottom: 10px;
+}
+
+.planning li{
+    margin-left: 15px;
+    margin-bottom: 5px;    
+}
