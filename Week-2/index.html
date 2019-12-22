@@ -1,45 +1,38 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Kalkulator Sederhana</title>
-        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Web Calculator</title>
+        <link rel="stylesheet" href="assets/style.css">        
     </head>
     <body>
-        <div class="container">
-            <div id="calculator">
-                <div class="results-screen">
-                    <input class="result" value="input data">
-                </div>
-                <div class="number">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td id="num_7">7</td>
-                                <td id="num_8">8</td>
-                                <td id="num_9">9</td>
-                                <td id="opr_bagi">÷</td>
-                            </tr>
-                            <tr>
-                                <td id="num_4">4</td>
-                                <td id="num_5">5</td>
-                                <td id="num_6">6</td>
-                                <td id="opr_kali">x</td>
-                            </tr>
-                            <tr>
-                                <td id="num_1">1</td>
-                                <td id="num_2">2</td>
-                                <td id="num_3">3</td>  
-                                <td id="opr_kurang">-</td>                          
-                            </tr>                        
-                            <tr>
-                                <td id="num_0">0</td>
-                                <td id="titik">.</td>
-                                <td id="sama_dengan">=</td>
-                                <td id="opr_tambah">+</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>    
-            </div>            
+        <div class="flex-container-column card">
+            <div class="display">
+                <h1 id="displayNumber">0</h1>
+            </div>
+            <div class="flex-container-row">
+                <div class="button">7</div>
+                <div class="button">8</div>
+                <div class="button">9</div>
+                <div class="button negative">+/-</div>
+            </div>
+            <div class="flex-container-row">
+                <div class="button">4</div>
+                <div class="button">5</div>
+                <div class="button">6</div>
+                <div class="button operator">-</div>
+            </div>
+            <div class="flex-container-row">
+                <div class="button">1</div>
+                <div class="button">2</div>
+                <div class="button">3</div>
+                <div class="button operator">+</div>
+            </div>
+            <div class="flex-container-row">
+                <div class="button clear">CE</div>
+                <div class="button">0</div>
+                <div class="button equals double">=</div>                
+            </div>
         </div>
+        <script src="assets/kalkulator.js"></script>
     </body>
 </html>
